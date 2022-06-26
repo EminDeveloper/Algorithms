@@ -18,6 +18,7 @@ public class QuickUnionUF
     {
         return root(p) == root(q);
     }
+
     public void union(int p, int q)
     {
         int i = root(p);
@@ -27,7 +28,7 @@ public class QuickUnionUF
 }
 
 
-/*Algorithm   init union find
+/*  Algorithm   init union find
          quick-find  N    N     1
 
          DEFECT: Union too expensive!
@@ -43,7 +44,6 @@ public class QuickUnionUF
            |     |  |  |
            5--6  7  8  9
 
-         01:51
          FIND: Check if p and q have the same id.
 
          UNION: To merge components containing p and q, change all
@@ -59,7 +59,6 @@ public class QuickUnionUF
          because we have a lot of values to change.  But it is
          easy to implement.
 
-         07:05
          COST MODEL.	Number of array accesses (for read or write)
          Order of growth of number of array accesses
 
@@ -71,7 +70,7 @@ public class QuickUnionUF
          EX. N union commands on N objects takes N^2 (Quadratic)
          array accesses to process the sequence of N objects.
 
-         08:17 AS COMPUTERS GET FASTER AND BIGGER, QUADRATIC ALGORITHMS GET SLOWER.
+         AS COMPUTERS GET FASTER AND BIGGER, QUADRATIC ALGORITHMS GET SLOWER.
 
          Today people have computers that can run billions of operations per second
          and they have billions of entries in main memory.
@@ -80,7 +79,7 @@ public class QuickUnionUF
          True then when computers had a few thousand words of memory
          True now  when computers have millions or more
 
-         09:47 QUADRATCIC ALGORITHMS DO NOT SCALE
+         QUADRATCIC ALGORITHMS DO NOT SCALE
 
          ROUGH STANDARD (FOR NOW).
          * 10^9 operations per second.
@@ -93,7 +92,7 @@ public class QuickUnionUF
          * 30+ years of computer time!
 
          Ex: Takes N^2 accesses to process sequence of N union commands on N objects.
-         10:13 QUADRATIC ALGORITHMS ARE UNEXCEPTABLY SLOW AND DO NOT SCALE WITH TECHNOLOGY: 08:50
+         QUADRATIC ALGORITHMS ARE UNEXCEPTABLY SLOW AND DO NOT SCALE WITH TECHNOLOGY: 08:50
            * New computer may be 10x as fast
            * But, has 10x as much memory =>
              want to solve a problem that is 10x as big.
