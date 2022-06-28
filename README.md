@@ -20,3 +20,12 @@ Quick-union and weighted quick-union example
 ![Common_rules](https://user-images.githubusercontent.com/26926048/175981914-4ea9dad6-7382-4e4e-ab42-80a74b7935fd.PNG)
 
 ![Practical implications of order-of-growth](https://user-images.githubusercontent.com/26926048/175983266-6b932af7-95b9-4fd5-b5fe-1c265001b428.PNG)
+
+
+Kompyuter elmlərində istifadə olunan qarışıq siniflər 5 ədəddir.
+
+Kiçik-o (small-o)
+Böyük-O (big-o, veya big-oh diye de geçer)
+Teta (Theta Θ, sadece büyük tetadan bahsedebiliz)
+Böyük omega (big-Ω )
+Kiçik omega(small-ω )
