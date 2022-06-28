@@ -23,9 +23,10 @@ Quick-union and weighted quick-union example
 
 
 Kompyuter elmlərində istifadə olunan qarışıq siniflər 5 ədəddir.
-
-Kiçik-o (small-o)
-Böyük-O (big-o, veya big-oh diye de geçer)
-Teta (Theta Θ, sadece büyük tetadan bahsedebiliz)
-Böyük omega (big-Ω )
-Kiçik omega(small-ω )
+<ul>
+<li>Kiçik-o (small-o)</li>
+<li>Böyük-O (big-o, veya big-oh diye de geçer)</li>
+<li>Teta (Theta Θ, sadece büyük tetadan bahsedebiliz)</li>
+<li>Böyük omega (big-Ω )</li>
+<li>Kiçik omega(small-ω )</li>
+</ul>
