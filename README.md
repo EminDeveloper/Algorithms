@@ -29,4 +29,4 @@ Kompyuter elmlərində istifadə olunan qarışıq siniflər 5 ədəddir.
 <li>Teta (Theta Θ, sadece büyük tetadan bahsedebiliz)</li>
 <li>Böyük omega (big-Ω )</li>
 <li>Kiçik omega(small-ω )</li>
-</ul>
+</ul> 
