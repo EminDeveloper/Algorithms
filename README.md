@@ -30,3 +30,8 @@ Kompyuter elmlərində istifadə olunan qarışıq siniflər 5 ədəddir.
 <li>Böyük omega (big-Ω )</li>
 <li>Kiçik omega(small-ω )</li>
 </ul> 
+
+Commonly-used notations in the theory of algorithms
+
+![2](https://user-images.githubusercontent.com/26926048/176417364-8c4c913d-2bef-4b05-8c6f-4b22350af43f.PNG)
+
