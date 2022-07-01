@@ -37,3 +37,10 @@ Commonly-used notations in the theory of algorithms
 
 
 Binary Search
+Binary Search Algorithm can be implemented in two ways which are discussed below.
+
+Iterative Method
+Recursive Method
+The recursive method follows the divide and conquer approach.
+
+The general steps for both methods are discussed below.
