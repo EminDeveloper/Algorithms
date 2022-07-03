@@ -1,6 +1,7 @@
 package nativealgoritm.searching.binarysearch;
 
-class BinarySearchExample{
+class BinarySearchExample {
+
     public static void binarySearch(int arr[], int first, int last, int key){
 
         int mid = (first + last)/2;
@@ -12,7 +13,8 @@ class BinarySearchExample{
             else if ( arr[mid] == key ){
                 System.out.println("Element is found at index: " + mid);
                 break;
-            }else{
+            }
+            else{
                 last = mid - 1;
             }
             mid = (first + last)/2;
