@@ -44,3 +44,25 @@ Recursive Method
 The recursive method follows the divide and conquer approach.
 
 The general steps for both methods are discussed below.
+
+Min Heap and Max Heap:
+Max-heap strukturunda kökdə duran element istənilən halda həm sağ, həm də sol budaqdakı elementdən böyük (bərabər) olmalıdır. Min-heap strukturunda isə bunun tərsidir, kökdə duran element istənilən halda həm sağ, həm də sol budaqdakı elementdən kiçik (bərabər) olmalıdır. 
+![Min-heap_and_Max-heap](https://user-images.githubusercontent.com/26926048/177139036-13b8dedd-e3fe-438a-a6f8-042e1e7d5cf3.PNG)
+
+
+
+Traverse Binary Search Tree
+<ol>
+<li>Inorder (Left, Root, Right)</li>
+<li>Preorder (Root, Left, Right)</li>
+<li>Postorder (Left, Right, Root)</li>
+</ol>
+
+
+
+
+![binary-search-tree-all-traversals-explain](https://user-images.githubusercontent.com/26926048/177148504-a298aa5f-8f37-402a-8e91-a49bfb7adcd0.jpg)
+
+
+
+![binary-search-tree-traversals](https://user-images.githubusercontent.com/26926048/177154565-e45f5af8-0f0d-4167-9985-d7f973f4bbf1.jpg)
