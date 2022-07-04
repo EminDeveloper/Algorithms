@@ -17,13 +17,13 @@ public class BinarySearchTree {
         System.out.print("level-order:\t");
         bst.levelOrderWalk(root);
 
-        System.out.print("\nin-order:\t");
+        System.out.print("\n in-order:\t");
         bst.inOrderWalk(root);
 
-        System.out.print("\npre-order:\t");
+        System.out.print("\n pre-order:\t");
         bst.preOrderWalk(root);
 
-        System.out.print("\npost-order:\t");
+        System.out.print("\n post-order:\t");
         bst.postOrderWalk(root);
     }
 
