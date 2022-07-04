@@ -57,4 +57,9 @@ Traverse Binary Search Tree
 <li>Preorder (Root, Left, Right)</li>
 <li>Postorder (Left, Right, Root)</li>
 </ol>
-![binary-search-tree-all-traversals-explain](https://user-images.githubusercontent.com/26926048/177148358-7094ffc4-e004-4f1f-99f6-3d5155314055.jpg)
+
+
+
+
+![binary-search-tree-all-traversals-explain](https://user-images.githubusercontent.com/26926048/177148504-a298aa5f-8f37-402a-8e91-a49bfb7adcd0.jpg)
+
