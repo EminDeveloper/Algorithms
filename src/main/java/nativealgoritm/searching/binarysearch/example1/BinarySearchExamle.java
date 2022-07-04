@@ -1,4 +1,4 @@
-package nativealgoritm.searching.binarysearch;
+package nativealgoritm.searching.binarysearch.example1;
 
 class BinarySearchExample {
 
