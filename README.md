@@ -63,3 +63,6 @@ Traverse Binary Search Tree
 
 ![binary-search-tree-all-traversals-explain](https://user-images.githubusercontent.com/26926048/177148504-a298aa5f-8f37-402a-8e91-a49bfb7adcd0.jpg)
 
+
+
+![binary-search-tree-traversals](https://user-images.githubusercontent.com/26926048/177154565-e45f5af8-0f0d-4167-9985-d7f973f4bbf1.jpg)
