@@ -66,3 +66,8 @@ Traverse Binary Search Tree
 
 
 ![binary-search-tree-traversals](https://user-images.githubusercontent.com/26926048/177154565-e45f5af8-0f0d-4167-9985-d7f973f4bbf1.jpg)
+
+
+
+Recursion in Java
+Recursion in java is a process in which a method calls itself continuously. A method in java that calls itself is called recursive method.
