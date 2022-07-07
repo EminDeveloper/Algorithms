@@ -74,7 +74,8 @@ Recursion in java is a process in which a method calls itself continuously. A me
 
 
 
-Complexity Classes
+#Complexity Classes
+
 In computational complexity theory, a complexity class is a set of computational problems of related resource-based complexity. The two most commonly analyzed resources are time and memory.
 
 In general, a complexity class is defined in terms of a type of computational problem, a model of computation, and a bounded resource like time or memory. In particular, most complexity classes consist of decision problems that are solvable with a Turing machine, and are differentiated by their time or space (memory) requirements. For instance, the class P is the set of decision problems solvable by a deterministic Turing machine in polynomial time. There are, however, many complexity classes defined in terms of other types of problems (e.g. counting problems and function problems) and using other models of computation (e.g. probabilistic Turing machines, interactive proof systems, Boolean circuits, and quantum computers).
