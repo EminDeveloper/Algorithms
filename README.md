@@ -83,7 +83,7 @@ In general, a complexity class is defined in terms of a type of computational pr
 ![Complexity_subsets_pspace svg](https://user-images.githubusercontent.com/26926048/177935916-9325091f-7e12-4dec-9ee3-0726d97b753c.png)
 
 
-#MurmurHash Algorithm
+# MurmurHash Algorithm
 MurmurHash is a non-cryptographic hash function suitable for general hash-based lookup.It was created by Austin Appleby in 2008 and is currently hosted on GitHub along with its test suite named 'SMHasher'. It also exists in a number of variants, all of which have been released into the public domain. The name comes from two basic operations, multiply (MU) and rotate (R), used in its inner loop.
 
 Unlike cryptographic hash functions, it is not specifically designed to be difficult to reverse by an adversary, making it unsuitable for cryptographic purposes.
