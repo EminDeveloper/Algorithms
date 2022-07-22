@@ -87,3 +87,13 @@ In general, a complexity class is defined in terms of a type of computational pr
 MurmurHash is a non-cryptographic hash function suitable for general hash-based lookup.It was created by Austin Appleby in 2008 and is currently hosted on GitHub along with its test suite named 'SMHasher'. It also exists in a number of variants, all of which have been released into the public domain. The name comes from two basic operations, multiply (MU) and rotate (R), used in its inner loop.
 
 Unlike cryptographic hash functions, it is not specifically designed to be difficult to reverse by an adversary, making it unsuitable for cryptographic purposes.
+MurmurHash (http://murmurhash.googlepages.com/) is a multiplicative hash function with a mixing step written by Austin Appleby. It aims to be a fast statistically strong hashing algorithm.
+
+"The name, if you're wondering, comes from the simplest sequence of operations which will thoroughly mix the bits of a value - "x *= m; x = rotate_left(x,r);" - multiply and rotate. Repeat that about 15 times using 'good' values of m and r, and x will end up pseudo-randomized. Unfortunately multiply+rotate has a few major weaknesses when used in a hash function, so I used multiply+shift+xor. I liked the name Murmur better than Musxmusx, so I kept it."
+
+MurmurHash was designed with four main goals in mind:
+
+Distribution – Passing Chi-Square distribution tests for all keysets and bucket sizes.
+Avalanche Behaviour – Maximum bias of 0.5%.
+Collision Resistance – No collisions possible for 4-byte keys, no small (1- to 7-bit) differentials.
+Simple and Fast – As few instructions as possible, as fast as possible while remaining statistically strong.
