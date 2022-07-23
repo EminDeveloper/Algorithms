@@ -97,3 +97,15 @@ Distribution – Passing Chi-Square distribution tests for all keysets and bucke
 Avalanche Behaviour – Maximum bias of 0.5%.
 Collision Resistance – No collisions possible for 4-byte keys, no small (1- to 7-bit) differentials.
 Simple and Fast – As few instructions as possible, as fast as possible while remaining statistically strong.
+
+
+
+#Floyd–Warshall algorithm
+
+In computer science, the Floyd–Warshall algorithm (also known as Floyd's algorithm, the Roy–Warshall algorithm, the Roy–Floyd algorithm,
+ or the WFI algorithm) is an algorithm for finding shortest paths in a directed weighted graph with positive or negative 
+ edge weights (but with no negative cycles).[1][2] A single execution of the algorithm will find the lengths (summed weights) 
+ of shortest paths between all pairs of vertices. Although it does not return details of the paths themselves, 
+ it is possible to reconstruct the paths with simple modifications to the algorithm. Versions of the algorithm 
+ can also be used for finding the transitive closure of a relation R, or (in connection with the Schulze voting system) 
+ widest paths between all pairs of vertices in a weighted graph.
